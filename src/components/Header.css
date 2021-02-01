@@ -27,13 +27,8 @@ body{
     background-size:cover;
     background-repeat: no-repeat;
     height:100%; */
-    margin: 0;
-    padding: 0;
-    outline: none;
-    background: #7000e0; 
-    background: -webkit-linear-gradient(to right, #790000, #7000e0);  
-    background: linear-gradient(to right, #790000, #7000e0); 
-
+   
+   background-color:rgb(93, 36, 126);
 
 }
 
@@ -151,7 +146,7 @@ body{
 .expert{
     font-family: 'Londrina Solid', cursive;
     text-shadow: 2px 2px 2px #000000;
-    color:rgb(42, 187, 66);
+    color:rgb(4, 145, 16);
     font-weight: 200;
     font-size: 45px;
     transition:0.4s;
