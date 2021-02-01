@@ -21,7 +21,7 @@ const Header = () =>{
             
             <div className="title">
             <img src={Mypic} className="Mypic"></img>
-            <h1 className="myname"> ANUDEEP AYILALATH PUTHALATH  <span className="p">
+            <h1 className="myname"> <span className="Annu">ANUDEEP</span> AYILALATH PUTHALATH  <span className="p">
             <p>"I am an enthusiastic and hardworking front-end developer <br></br>committed to learning and developing creative solutions. 
                 I consider the trust and satisfaction <br></br>from my superiors and colleagues to be the most valuable assets in my professional career."
             </p></span></h1>

@@ -48,7 +48,7 @@ body{
 }
 
 .myname{
-    color:rgb(204, 172, 91);
+    color:rgb(80, 207, 165);
     text-shadow: 2px 2px 2px #000000;
     margin:1em;
     
@@ -61,7 +61,7 @@ body{
 
 
 .myname:hover{
-    color: rgb(223, 209, 13);
+    color: rgb(0, 163, 109);
     text-shadow: 2px 2px 2px #000000;
 }
 
@@ -157,6 +157,10 @@ body{
     color:rgb(255, 255, 255)
 }
 
+
+.Annu{
+    color:white;
+}
 
 @media only screen and (max-width:1600px){
     
