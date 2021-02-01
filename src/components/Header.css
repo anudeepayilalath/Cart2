@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@200&family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@500&display=swap');
+
+.Mypic{
+    border-radius:200px;
+    margin-top:3em;
+    margin-bottom:3em;
+    width:300px;
+    box-shadow: -30px 30px 20px rgba(0,0,0,0.4);
+    /* -webkit-box-shadow: 0 0 30px rgb(0, 0, 0);
+    box-shadow: 0 0 30px rgb(0, 0, 0); */
+    transition: 0.4s;
+    cursor:pointer;
+}
+
+.Mypic:hover{
+    width:350px;
+    border-radius: 20px;
+}
+
+body{
+    background:url("../wp5952062-youtube-thumbnail-wallpapers.png");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:110em;
+
+}
+
+.secdiv{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgdiv{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.myname{
+    color:rgb(241, 225, 0);
+    text-shadow: 2px 2px 2px #000000;
+    margin:1em;
+    
+    transition: 0.4s;
+    font-weight:900;
+    font-family: 'Julius Sans One', sans-serif;
+    cursor: pointer;
+    
+}
+
+
+.myname:hover{
+    color: rgba(49, 177, 10, 0.897);
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.title{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    padding-left:2.5em;
+    padding-right:2.5em;
+    
+    
+    
+}
+
+
+
+
+
+.p{
+    color:rgb(243, 243, 243);
+    font-size:20px;
+    font-family: 'Mali', cursive;
+    font-style: italic;
+    padding:1em;
+}
+
+
+.giffy{
+    box-shadow: -30px 30px 20px  rgba(0,0,0,0.4);
+    transition: 0.4s;
+    cursor: pointer;
+    
+    
+}
+
+.giffy:hover{
+    box-shadow:none;
+}
+
+.mygif{
+    width:300px;
+    transition:0.4s;
+    cursor: pointer;
+    
+}
+
+.mygif:hover{
+    width:290px;
+}
+
+
+
+.bottomdiv{
+    background-color: rgb(109, 0, 211);
+    box-shadow: -30px -30px 20px  rgba(0,0,0,0.4);
+    
+}
+
+
+.iconz{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1.4em;
+    background-color: rgb(100, 0, 139);
+    /* box-shadow: -30px 30px 20px  rgba(0,0,0,0.4); */
+    border-radius: 80%;
+    -webkit-box-shadow: 0 0 30px rgb(0, 0, 0);
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+
+}
+
+.iconz img{
+    transition: 0.4s;
+}
+
+.iconz img:hover{
+    width:140px;
+}
+
+.expert{
+    font-family: 'Londrina Solid', cursive;
+    text-shadow: 2px 2px 2px #000000;
+    color:rgb(42, 187, 66);
+    font-weight: 200;
+    font-size: 45px;
+    transition:0.4s;
+    cursor:pointer;
+    
+}
+
+.expert:hover{
+    color:rgb(255, 255, 255)
+}
+
+
+@media only screen and (max-width:1600px){
+    
+    .Mypic{
+        width:200px;
+    }
+
+    .giffy{
+        width:200px;
+    }
+
+    .title{
+        display:flex;
+        flex-direction: column;
+        }
+
+    
+    
+
+    .myname{
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .iconz{
+        display:flex;
+        flex-direction:column;
+    }
+
+    .expert{
+        font-size: 30px;
+    }
+
+    .mygif{
+        width:100px;
+    }
+}
