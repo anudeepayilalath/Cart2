@@ -48,7 +48,7 @@ body{
 }
 
 .myname{
-    color:rgb(241, 225, 0);
+    color:goldenrod;
     text-shadow: 2px 2px 2px #000000;
     margin:1em;
     
@@ -61,7 +61,7 @@ body{
 
 
 .myname:hover{
-    color: goldenrod;
+    color: rgb(223, 209, 13);
     text-shadow: 2px 2px 2px #000000;
 }
 
