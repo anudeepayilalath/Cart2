@@ -33,8 +33,8 @@ const Header = () =>{
                     <img src={Rp} width="100px"></img>
                     <img src={Np} width="100px"></img>
                     <img src={Htmlp} width="100px"></img>
-                        <img src={Cssp} width="100px"></img>
-                        <img src={Pp} width="88px"></img>
+                    <img src={Cssp} width="100px"></img>
+                    <img src={Pp} width="88px"></img>
                   
                 </div>
             
