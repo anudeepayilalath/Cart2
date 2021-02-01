@@ -48,7 +48,7 @@ body{
 }
 
 .myname{
-    color:goldenrod;
+    color:rgb(204, 172, 91);
     text-shadow: 2px 2px 2px #000000;
     margin:1em;
     
@@ -94,9 +94,7 @@ body{
 .giffy{
     box-shadow: -30px 30px 20px  rgba(0,0,0,0.4);
     transition: 0.4s;
-    cursor: pointer;
-    
-    
+    cursor: pointer;    
 }
 
 .giffy:hover{
