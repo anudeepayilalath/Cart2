@@ -28,7 +28,7 @@ body{
     background-repeat: no-repeat;
     height:100%; */
    
-   background-color:#00587a;
+   background-color:#30258d;
 
 }
 
@@ -173,13 +173,19 @@ body{
     .title{
         display:flex;
         flex-direction: column;
-        }
+        align-items: center;
+        justify-content: center;    
+    }
 
     
     
 
     .myname{
         width: 300px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
     }
 }
 
