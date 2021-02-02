@@ -2,7 +2,6 @@ import React from 'react';
 import './Header.css';
 import Mypic from '../Untitled design (1).png';
 import Giffy from '../yy3.gif';
-import Cv from '../cv.png';
 import Mygif from '../source.gif';
 // import Giff2 from '../60203889.png';
 import Htmlp from '../htmlp.webp';
@@ -20,7 +19,7 @@ const Header = () =>{
                 <img className="giffy" src={Giffy} width="250px" ></img>
             
             <div className="title">
-            <img src={Mypic} className="Mypic"></img>
+                <img src={Mypic} className="Mypic"></img>
             <h1 className="myname"> <span className="Annu">ANUDEEP</span> AYILALATH PUTHALATH  <span className="p">
             <p>"I am an enthusiastic and hardworking front-end developer <br></br>committed to learning and developing creative solutions. 
                 I consider the trust and satisfaction <br></br>from my superiors and colleagues to be the most valuable assets in my professional career."
@@ -38,12 +37,11 @@ const Header = () =>{
                   
                 </div>
             
-            
-            
-            
-            
-            
-            
+            </div>
+
+
+            <div>
+                <p className="credits">Created By Anudeep Ayilalath Puthalath.</p>
             </div>
         </div>
     )
