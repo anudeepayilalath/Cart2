@@ -191,12 +191,13 @@ body{
     color:white;
 }
 
-.credits{
+/* .credits{
     color:rgb(211, 211, 211);
     text-align: right;
-    margin: 1em;
+    margin-top: 2em;
     text-shadow: 2px 2px 2px #000000;
-}
+    font-size: 17px;
+} */
 
 @media only screen and (max-width:1600px){
     

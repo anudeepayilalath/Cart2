@@ -40,9 +40,7 @@ const Header = () =>{
             </div>
 
 
-            <div>
-                <p className="credits">Created By Anudeep Ayilalath Puthalath.</p>
-            </div>
+            
         </div>
     )
 }
