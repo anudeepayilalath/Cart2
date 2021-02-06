@@ -32,7 +32,7 @@ comprometidos con el aprendizaje y el desarrollo de soluciones creativas. <br></
 de mis superiores y colegas para<br></br> ser el activo más valioso de mi carrera profesional. "  </p></span></h1>
             <img className="mygif" width=" 200px"src={Mygif}></img>
             </div>
-            <h1 className="expert">Areas Of Expertise:</h1>
+            <h1 className="expert">Áreas de Especialización:</h1>
                 <div className="iconz">
                     <img src={Jsp} width="100px"></img>
                     <img src={Rp} width="100px"></img>
