@@ -10,10 +10,14 @@ import Np from '../np.webp';
 import Rp from '../rp.webp';
 import Pp from '../pp.png';
 import Cssp from '../cssp.gif';
+import {Link} from 'react-router-dom';
 
 const Header = () =>{
     return(
         <div>
+            <div>
+                <Link to="/second"><img className="langchange" src="https://cdn.countryflags.com/thumbs/spain/flag-400.png"></img></Link>
+            </div>
             <div className="imgdiv">
             
                 <img className="giffy" src={Giffy} width="250px" ></img>
