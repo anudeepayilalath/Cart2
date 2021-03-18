@@ -8,7 +8,7 @@
     border-radius:200px;
     margin-top:3em;
     margin-bottom:3em;
-    width:300px;
+    width:200px;
     box-shadow: -30px 30px 20px rgba(0,0,0,0.4);
     /* -webkit-box-shadow: 0 0 30px rgb(0, 0, 0);
     box-shadow: 0 0 30px rgb(0, 0, 0); */
@@ -17,8 +17,21 @@
 }
 
 .Mypic:hover{
-    width:350px;
+    width:250px;
     border-radius: 20px;
+}
+
+.bottompic{
+    -webkit-box-shadow: 0 0 30px rgb(0, 0, 0);
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+    margin-bottom: 1em;
+    border-radius: 200px;
+    transition: 0.4s;
+}
+
+.bottompic:hover{
+    width:120px;
+   
 }
 
 /* .fade {
@@ -76,6 +89,11 @@ body{
     
 }
 
+.createdby{
+    text-shadow: 2px 2px 2px #000000;
+    font-size:12px;
+}
+
 .myname{
     color: rgb(80, 207, 165);
     text-shadow: 2px 2px 2px #000000;
@@ -112,7 +130,7 @@ body{
 
 .p{
     color:rgb(230, 230, 230);
-    font-size:20px;
+    font-size:15px;
     font-family: 'Mali', cursive;
     font-style: italic;
     padding:1em;
@@ -123,7 +141,8 @@ body{
 .giffy{
     box-shadow: -30px 30px 20px  rgba(0,0,0,0.4);
     transition: 0.4s;
-    cursor: pointer;    
+    cursor: pointer;   
+    width:160px; 
 }
 
 .giffy:hover{
@@ -131,14 +150,14 @@ body{
 }
 
 .mygif{
-    width:300px;
+    width:200px;
     transition:0.4s;
     cursor: pointer;
     
 }
 
 .mygif:hover{
-    width:290px;
+    width:220px;
 }
 
 
@@ -152,6 +171,8 @@ body{
 
 .iconz{
     display:flex;
+    margin-right:10px;
+    margin-left: 10px;
     flex-direction: row;
     align-items: center;
     margin-top: 1.4em;
@@ -168,15 +189,15 @@ body{
 }
 
 .iconz img:hover{
-    width:140px;
+    width:90px;
 }
 
 .expert{
     font-family: 'Londrina Solid', cursive;
     text-shadow: 2px 2px 2px #000000;
-    color:rgb(1, 179, 16);
+    color:rgb(1, 168, 132);
     font-weight: 200;
-    font-size: 45px;
+    font-size: 30px;
     transition:0.4s;
     cursor:pointer;
     
@@ -199,6 +220,59 @@ body{
     
 }
 
+.iconsdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.mario{
+    width:50%;
+    margin:5em;
+    box-shadow: -30px 30px 20px rgba(0,0,0,0.4);
+   
+}
+
+.footer{
+    background-color:rgb(27, 31, 88);
+    color:white;
+    width: 100%;
+   
+}
+
+.forrow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding:3em;
+}
+
+
+.sicons{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: space-around;
+}
+
+.sicons img{
+    margin:2em;
+    box-shadow: -30px 30px 20px rgba(0,0,0,0.4);
+}
+
+.sicons p{
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.pwoli{
+    -webkit-box-shadow: 0 0 30px rgb(0, 0, 0);
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+    background-color: rgb(187, 8, 8);
+    margin-top: 2em;
+    
+}
 
 /* .credits{
     color:rgb(211, 211, 211);
@@ -208,14 +282,12 @@ body{
     font-size: 17px;
 } */
 
-@media only screen and (max-width:1600px){
+@media only screen and (max-width:1000px){
     
-    .Mypic{
-        width:200px;
-    }
+    
 
     .giffy{
-        width:200px;
+        width:150px;
     }
 
     .title{
@@ -229,15 +301,29 @@ body{
     
 
     .myname{
-        width: 300px;
+        font-size: 20px;
         display:flex;
         flex-direction: column;
         align-items: center;
         justify-content: center; 
     }
-}
+
+    .forrow{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+   
 
 @media only screen and (max-width:600px){
+    .sicons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom:2em;
+    }
+}
     .iconz{
         display:flex;
         flex-direction:column;
@@ -250,4 +336,24 @@ body{
     .mygif{
         width:100px;
     }
+
+    .forrow{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .langchange{
+        display: none;
+    }
+
+    .Mypic{
+        width:130px;
+    }
+
+    .myname h1{
+        font-size:20px;
+    }
+   
+    
 }

@@ -123,7 +123,8 @@ body{
 .giffy{
     box-shadow: -30px 30px 20px  rgba(0,0,0,0.4);
     transition: 0.4s;
-    cursor: pointer;    
+    cursor: pointer;   
+    width: 160px; 
 }
 
 .giffy:hover{
@@ -174,7 +175,7 @@ body{
 .expert{
     font-family: 'Londrina Solid', cursive;
     text-shadow: 2px 2px 2px #000000;
-    color:rgb(1, 179, 16);
+    color:rgb(1, 168, 132);
     font-weight: 200;
     font-size: 45px;
     transition:0.4s;
@@ -191,12 +192,81 @@ body{
     color:white;
 }
 
-.langchange{
+ .langchange{
     position: absolute;
     top: 20px;
     right: 100px;
-    width:30px;
+    width:890px;
+    height:25px;
     
+}
+
+.iconsdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.mario{
+    width:50%;
+    margin:5em;
+    box-shadow: -30px 30px 20px rgba(0,0,0,0.4);
+   
+}
+
+.footer{
+    background-color:rgb(27, 31, 88);
+    color:white;
+    width: 100%;
+   
+}
+
+.pwoli{
+    -webkit-box-shadow: 0 0 30px rgb(0, 0, 0);
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+    background-color: rgb(187, 8, 8);
+    margin-top: 2em;
+    
+}
+
+.forrow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sicons{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: space-around;
+}
+
+.sicons img{
+    margin:2em;
+    box-shadow: -30px 30px 20px rgba(0,0,0,0.4);
+}
+
+.sicons p{
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.bottompic{
+    -webkit-box-shadow: 0 0 30px rgb(0, 0, 0);
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+    margin-bottom: 1em;
+    border-radius: 200px;
+}
+
+.bottompic:hover{
+    width:120px;
+   
+}
+
+.createdby{
+    text-shadow: 2px 2px 2px #000000;
+    font-size:12px;
 }
 
 
@@ -215,7 +285,7 @@ body{
     }
 
     .giffy{
-        width:200px;
+        width:150px;
     }
 
     .title{
@@ -235,6 +305,13 @@ body{
         align-items: center;
         justify-content: center; 
     }
+
+    .forrow{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
 
 @media only screen and (max-width:600px){
@@ -249,5 +326,30 @@ body{
 
     .mygif{
         width:100px;
+    }
+
+    .forrow{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .langchange{
+        display: none;
+    }
+
+    .sicons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom:2em;
+    }
+
+    .Mypic{
+        width:130px;
+    }
+
+    .myname h1{
+        font-size:20px;
     }
 }
